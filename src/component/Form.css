@@ -1,0 +1,51 @@
+/* Light Theme */
+.app {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Dark Theme */
+  .app.dark {
+    background-color: #222222;
+    color: #fff;
+  }
+
+  li{
+    list-style: none;
+  }
+  .userinput{
+    width: 40%;
+  }
+
+.box1{
+  border: 1px solid red;
+  /* text-align: center; */
+  width: 40%;
+  box-shadow: 0px 6px 15px rgb(0,0,0.5);
+}
+.box2{
+  border: 1px solid red;
+  /* text-align: center; */
+  width: 40%;
+  box-shadow: 0px 6px 15px rgb(0,0,0.5);
+}
+
+.input[type="checkbox"]{
+  font-size: 20px;
+}
+.btnAlign{
+  display: flex;
+  justify-content: space-between;
+}
+.mainrow{
+  display: flex;
+  justify-content: space-between;
+}
+.heading{
+  color: blue;
+  text-decoration: underline;
+}
+ 
+  

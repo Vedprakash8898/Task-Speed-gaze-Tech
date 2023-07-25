@@ -1,0 +1,68 @@
+
+/* container div holding the table */
+.center{
+    text-align: center;
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+.cat-facts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling for the table */
+  .tabulator {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style table header */
+  .tabulator .tabulator-header {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling header cells */
+  .tabulator .tabulator-header .tabulator-col {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Styling table body */
+  .tabulator .tabulator-tableHolder {
+    border: 1px solid #ddd;
+  }
+  
+  /* Styling table rows */
+  .tabulator .tabulator-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabulator .tabulator-data-tree-control {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .tabulator .tabulator-data-tree-control .tabulator-data-tree-indent {
+    margin-left: 10px;
+  }
+  .tabulator .tabulator-header .tabulator-col{
+    background-color: black;
+    color: white;
+    font-size: 23px;
+  }
+  
+  /* Media query  */
+  @media screen and (max-width: 768px) {
+    .cat-facts-container {
+      max-width: 90%;
+      padding: 10px;
+     
+    }
+    
+  }
+  
